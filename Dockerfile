@@ -2,8 +2,8 @@ FROM cloudopting/cobase
 MAINTAINER Ciprian Pavel "ciprian.pavel@teamnet.ro"
 
 
-ADD puppet/modules/ /etc/puppet/modules/
-ADD puppet/manifests/web.pp /etc/puppet/manifests/
+#ADD puppet/modules/ /etc/puppet/modules/
+#ADD puppet/manifests/web.pp /etc/puppet/manifests/
 
 
 # EXECUTE PUPPET STANDALONE
